@@ -1,0 +1,104 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 280px;
+  margin-bottom: 35px;
+}
+
+.item__img {
+  width: 260px;
+  height: 260px;
+}
+
+.item__title {
+  font-size: 20px;
+  margin: 0;
+}
+
+.item__options {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 3px;
+  margin-top: 20px;
+}
+
+.item__options ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.item__options ul li {
+  cursor: pointer;
+  padding: 5px;
+  margin: 3px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.item__options ul li.active {
+  background-color: #fff;
+}
+
+.item__bottom {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__price {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.buttonAdd {
+  border: 1px solid #fe5f1e;
+  color: #fe5f1e;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.buttonAdd__plusSymbol {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.buttonAdd__label {
+  padding: 0 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.buttonAdd__amount {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #fe5f1e;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  line-height: 22px;
+}
+
+.buttonAdd:hover {
+  background-color: #fe5f1e;
+  color: white;
+}
+
+.buttonAdd:hover .buttonAdd__amount {
+  background-color: #fff;
+  color: #fe5f1e;
+}

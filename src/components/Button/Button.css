@@ -1,0 +1,19 @@
+.btnDeleteCartItem {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  padding: 0;
+}
+
+.btnDeleteCartItem svg {
+  transform: rotate(45deg);
+  fill: #ddd;
+}
+
+.btnDeleteCartItem:hover {
+  background-color: black;
+  fill: #fff;
+}

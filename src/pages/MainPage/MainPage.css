@@ -1,0 +1,21 @@
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.items__title {
+  margin: 35px 0;
+}
+
+.items__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

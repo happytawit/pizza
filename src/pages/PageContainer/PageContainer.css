@@ -1,0 +1,18 @@
+.wrapper {
+  margin: 50px auto;
+  max-width: 1400px;
+}
+
+.pageContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 5%;
+}
+
+.pageContainer__content {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}

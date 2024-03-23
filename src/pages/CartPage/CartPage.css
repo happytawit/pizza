@@ -1,0 +1,99 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+}
+
+.cart__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart__title h2 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.cart__title svg {
+  position: relative;
+  left: 13px;
+  top: 2px;
+}
+
+.cart__clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b6b6b6;
+  cursor: pointer;
+  fill: none;
+}
+
+.cart__clear:hover {
+  color: black;
+  fill: black;
+}
+
+.cart__clear svg {
+  margin-right: 5px;
+}
+
+.cart__items {
+  margin: 50px 0;
+}
+
+.cart__bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.cart__totalPrice b {
+  color: #fe5f1e;
+}
+
+.cart__options {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.btnToHome {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 15px 35px;
+  color: #ddd;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.btnToHome:hover {
+  border-color: black;
+  color: #fff;
+  background-color: black;
+}
+
+.btnPay {
+  cursor: pointer;
+  background-color: #fe5f1e;
+  padding: 15px 35px;
+  color: #fff;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+.btnPay:hover {
+  background-color: #f24701;
+}

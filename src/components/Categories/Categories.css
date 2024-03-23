@@ -1,0 +1,27 @@
+.categories ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.categories li {
+  padding: 15px 30px;
+  margin-right: 10px;
+  background-color: #f9f9f9;
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.categories li:hover {
+  background-color: #f4f4f4;
+}
+/* .categories li:first-child {
+  margin-left: 0;
+} */
+
+.categories ul .active {
+  background-color: black;
+  color: white;
+}
